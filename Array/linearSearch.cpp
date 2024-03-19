@@ -1,11 +1,11 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int search(int arr[],int key)
+int search(int arr[], int key, int size)
 {
-    for(int i = 0; i <= 5; i++)
+    for (int i = 0; i <= 5; i++)
     {
-        if(arr[i]==key)
+        if (arr[i] == key)
         {
             return i;
         }
@@ -14,12 +14,20 @@ int search(int arr[],int key)
 }
 int main()
 {
+    int size;
+    cout << "Enter the size of array: ";
+    cin >> size;
+
+    cout << "Enter the elements: ";
+    int arr[100];
+    for(int i = 0; i < size; i++)
+    {
+        cin >> arr[i];
+    }
     int a;
     cout << "Entwer the key: ";
     cin >> a;
 
-    int arr[5] = {1,2,3,6,78};
-
-    int ans = search(arr,a);
+    int ans = search(arr, a, size);
     cout << "Key faund at index no. " << ans << endl;
 }
