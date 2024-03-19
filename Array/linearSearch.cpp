@@ -3,7 +3,7 @@ using namespace std;
 
 int search(int arr[], int key, int size)
 {
-    for (int i = 0; i <= 5; i++)
+    for (int i = 0; i < size; i++)
     {
         if (arr[i] == key)
         {
