@@ -2,7 +2,7 @@
 using namespace std;
 
 // [7, 8, 1, 2, 3] => 1 is pivot
-int pivotElemet(int arr[], int size)
+int pivotElement(int arr[], int size)
 {
     for (int i = 0; i < size; i++)
     {
@@ -15,7 +15,7 @@ int pivotElemet(int arr[], int size)
 }
 /*
 [7, 8, 1, 2, 3] => 8 is pivot
-int pivotElemet(int arr[], int size)
+int pivotElement(int arr[], int size)
 {
     for (int i = 0; i < size; i++)
     {
@@ -39,6 +39,6 @@ int main()
     {
         cin >> arr[i];
     }
-    int ans = pivotElemet(arr,size);
+    int ans = pivotElement(arr,size);
     cout << "Pivot element is: " << ans << endl;
 }
