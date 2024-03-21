@@ -25,6 +25,7 @@ int search(int arr[], int key, int size)
     }
     return -1;
 }
+
 int main()
 {
     int size;
@@ -44,4 +45,5 @@ int main()
     int ans = search(arr, a, size);
 
     cout << "Key faund at index no. " << ans << endl;
+    
 }
