@@ -21,7 +21,7 @@ int search(int arr[], int key, int size)
         {
             e = mid - 1;
         }
-        int mid = s + (e - s) / 2;
+        mid = s + (e - s) / 2;
     }
     return -1;
 }
