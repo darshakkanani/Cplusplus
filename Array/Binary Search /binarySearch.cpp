@@ -19,7 +19,7 @@ int search(int arr[], int key, int size)
         }
         else if (arr[mid] > key)
         {
-            e = mid + 1;
+            e = mid - 1;
         }
         int mid = s + (e - s) / 2;
     }
