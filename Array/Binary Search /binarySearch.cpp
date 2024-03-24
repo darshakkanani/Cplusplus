@@ -29,7 +29,7 @@ int search(int arr[], int key, int size)
 int main()
 {
     int size;
-    cout << "Enter trhe size of Array: ";
+    cout << "Enter the size of Array: ";
     cin >> size;
 
     int arr[100];
